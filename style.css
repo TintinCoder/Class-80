@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    margin: 20px;
+    text-align: center;
+}
+h1{
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 30px;
+}
+.inputs{
+    border: 2px dotted black;
+    margin: 20px;
+    border-radius: 30px;
+}
+#btn{
+    width: 100px;
+    height: auto;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+#btn-sort{
+    display: none;
+    width: 100px;
+    height: auto;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+#names_with_comma{
+    width: 100vw;
+    height: auto;
+    background-color: green;
+}
+#names-without-comma{
+    width: 100vw;
+    height: auto;
+    background-color: red;
+    margin-top: 30px;
+}

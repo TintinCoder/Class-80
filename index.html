@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Class Mates Sorter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Class Mates</h1>
+        <!-- Adding Input -->
+        <div class="inputs">
+            1.
+            <input type="text" placeholder="First Name" id="1name">
+            <br>
+            2.
+            <input type="text" placeholder="Second Name" id="2name">
+            <br>
+            3.
+            <input type="text" placeholder="Third Name" id="3name">
+            <br>
+            4.
+            <input type="text" placeholder="Fourth Name" id="4name">
+            <br>
+            <button id="btn" onclick="submit();">Submit</button>
+            <button id="btn-sort" onclick="sorting();">Sort</button>
+        </div>
+        <!-- Adding Names -->
+        <div id="names_with_comma"></div>
+        <hr>
+        <div id="names-without-comma"></div>
+</body>
+<script src="app.js"></script>
+</html>
